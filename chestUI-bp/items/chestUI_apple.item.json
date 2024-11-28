@@ -1,0 +1,19 @@
+{
+  "format_version": "1.20.41",
+  "minecraft:item": {
+    "description": {
+      "identifier": "chestUI:apple",
+      "menu_category": {
+        "is_hidden_in_commands": true
+      }
+    },
+    "components": {
+        "minecraft:allow_off_hand": true,
+        "minecraft:can_destroy_in_creative": false,
+        "minecraft:display_name": {
+            "value": "§l§1Apple"
+        },
+        "minecraft:icon": "chestui_icon_apple"
+    }
+  }
+}

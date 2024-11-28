@@ -1,0 +1,12 @@
+{
+	"resource_pack_name": "Enclave Pack",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"chestui_icon_apple": {
+			"textures": "textures/items/icons/apple"
+		},
+		"chestui_icon_arrow_blue_down": {
+			"textures": "textures/items/icons/arrow_blue_down"
+		}
+	}
+}
