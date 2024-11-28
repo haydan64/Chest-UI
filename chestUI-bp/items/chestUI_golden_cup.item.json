@@ -2,15 +2,15 @@
     "format_version": "1.20.41",
     "minecraft:item": {
         "description": {
-            "identifier": "chestui:apple"
+            "identifier": "chestui:golden_cup"
         },
         "components": {
             "minecraft:allow_off_hand": true,
             "minecraft:can_destroy_in_creative": false,
             "minecraft:display_name": {
-                "value": "Apple"
+                "value": "Golden Cup"
             },
-            "minecraft:icon": "chestui_icon_apple"
+            "minecraft:icon": "chestui_icon_golden_cup"
         }
     }
 }

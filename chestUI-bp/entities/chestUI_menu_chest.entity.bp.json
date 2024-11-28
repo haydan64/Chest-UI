@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.81",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "chestui:menu_chest",
+      "is_spawnable": true,
+      "is_summonable": true
+    },
+    "components": {
+      "minecraft:type_family": { "family": ["menu_chest"] },
+      "minecraft:health": { "value": 10, "max": 10 },
+      "minecraft:damage_sensor": {
+        "triggers": { "cause": "all", "deals_damage": false }
+      },
+      "minecraft:inventory": {
+        "additional_slots_per_strength": 0,
+        "can_be_siphoned_from": false,
+        "container_type": "minecart_chest",
+        "inventory_size": 27,
+        "private": false,
+        "restrict_to_owner": true
+      },
+      "minecraft:tameable": {
+        "probability": 1
+      }
+    }
+  }
+}

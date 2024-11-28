@@ -1,12 +1,333 @@
 {
-	"resource_pack_name": "Enclave Pack",
-	"texture_name": "atlas.items",
-	"texture_data": {
-		"chestui_icon_apple": {
-			"textures": "textures/items/icons/apple"
-		},
-		"chestui_icon_arrow_blue_down": {
-			"textures": "textures/items/icons/arrow_blue_down"
-		}
-	}
+    "resource_pack_name": "Chest UI Pack",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        "chestui_icon_apple": {
+            "textures": "textures/items/icons/apple"
+        },
+        "chestui_icon_arrow_blue_down": {
+            "textures": "textures/items/icons/arrow_blue_down"
+        },
+        "chestui_icon_arrow_green_right": {
+            "textures": "textures/items/icons/arrow_green_right"
+        },
+        "chestui_icon_arrow_long_left": {
+            "textures": "textures/items/icons/arrow_long_left"
+        },
+        "chestui_icon_arrow_purple_left": {
+            "textures": "textures/items/icons/arrow_purple_left"
+        },
+        "chestui_icon_arrow_red_right": {
+            "textures": "textures/items/icons/arrow_red_right"
+        },
+        "chestui_icon_arrow_yellow_up": {
+            "textures": "textures/items/icons/arrow_yellow_up"
+        },
+        "chestui_icon_balloon": {
+            "textures": "textures/items/icons/balloon"
+        },
+        "chestui_icon_banana": {
+            "textures": "textures/items/icons/banana"
+        },
+        "chestui_icon_beer": {
+            "textures": "textures/items/icons/beer"
+        },
+        "chestui_icon_bell": {
+            "textures": "textures/items/icons/bell"
+        },
+        "chestui_icon_blue_liquid": {
+            "textures": "textures/items/icons/blue_liquid"
+        },
+        "chestui_icon_bread": {
+            "textures": "textures/items/icons/bread"
+        },
+        "chestui_icon_broccoli": {
+            "textures": "textures/items/icons/broccoli"
+        },
+        "chestui_icon_buck": {
+            "textures": "textures/items/icons/buck"
+        },
+        "chestui_icon_burger": {
+            "textures": "textures/items/icons/burger"
+        },
+        "chestui_icon_burrito": {
+            "textures": "textures/items/icons/burrito"
+        },
+        "chestui_icon_cake": {
+            "textures": "textures/items/icons/cake"
+        },
+        "chestui_icon_car": {
+            "textures": "textures/items/icons/car"
+        },
+        "chestui_icon_catering": {
+            "textures": "textures/items/icons/catering"
+        },
+        "chestui_icon_caution": {
+            "textures": "textures/items/icons/caution"
+        },
+        "chestui_icon_check_mark": {
+            "textures": "textures/items/icons/check_mark"
+        },
+        "chestui_icon_cheess": {
+            "textures": "textures/items/icons/cheess"
+        },
+        "chestui_icon_chest": {
+            "textures": "textures/items/icons/chest"
+        },
+        "chestui_icon_chicken": {
+            "textures": "textures/items/icons/chicken"
+        },
+        "chestui_icon_clock": {
+            "textures": "textures/items/icons/clock"
+        },
+        "chestui_icon_cloud": {
+            "textures": "textures/items/icons/cloud"
+        },
+        "chestui_icon_coin": {
+            "textures": "textures/items/icons/coin"
+        },
+        "chestui_icon_compass": {
+            "textures": "textures/items/icons/compass"
+        },
+        "chestui_icon_cow": {
+            "textures": "textures/items/icons/cow"
+        },
+        "chestui_icon_crab": {
+            "textures": "textures/items/icons/crab"
+        },
+        "chestui_icon_cracked_heart": {
+            "textures": "textures/items/icons/cracked_heart"
+        },
+        "chestui_icon_crown": {
+            "textures": "textures/items/icons/crown"
+        },
+        "chestui_icon_cruelty_free": {
+            "textures": "textures/items/icons/cruelty_free"
+        },
+        "chestui_icon_cup": {
+            "textures": "textures/items/icons/cup"
+        },
+        "chestui_icon_display": {
+            "textures": "textures/items/icons/display"
+        },
+        "chestui_icon_emerald": {
+            "textures": "textures/items/icons/emerald"
+        },
+        "chestui_icon_envelope": {
+            "textures": "textures/items/icons/envelope"
+        },
+        "chestui_icon_female": {
+            "textures": "textures/items/icons/female"
+        },
+        "chestui_icon_fire": {
+            "textures": "textures/items/icons/fire"
+        },
+        "chestui_icon_fireguard": {
+            "textures": "textures/items/icons/fireguard"
+        },
+        "chestui_icon_fish": {
+            "textures": "textures/items/icons/fish"
+        },
+        "chestui_icon_fist": {
+            "textures": "textures/items/icons/fist"
+        },
+        "chestui_icon_flag": {
+            "textures": "textures/items/icons/flag"
+        },
+        "chestui_icon_forbidden": {
+            "textures": "textures/items/icons/forbidden"
+        },
+        "chestui_icon_forbidden_2": {
+            "textures": "textures/items/icons/forbidden_2"
+        },
+        "chestui_icon_fork_knife": {
+            "textures": "textures/items/icons/fork_knife"
+        },
+        "chestui_icon_french_fries": {
+            "textures": "textures/items/icons/french_fries"
+        },
+        "chestui_icon_golden_cup": {
+            "textures": "textures/items/icons/golden_cup"
+        },
+        "chestui_icon_green_liquid": {
+            "textures": "textures/items/icons/green_liquid"
+        },
+        "chestui_icon_green_sprout": {
+            "textures": "textures/items/icons/green_sprout"
+        },
+        "chestui_icon_half_heart": {
+            "textures": "textures/items/icons/half_heart"
+        },
+        "chestui_icon_heart": {
+            "textures": "textures/items/icons/heart"
+        },
+        "chestui_icon_heart_arrow": {
+            "textures": "textures/items/icons/heart_arrow"
+        },
+        "chestui_icon_honey": {
+            "textures": "textures/items/icons/honey"
+        },
+        "chestui_icon_hourglass": {
+            "textures": "textures/items/icons/hourglass"
+        },
+        "chestui_icon_ice_cream": {
+            "textures": "textures/items/icons/ice_cream"
+        },
+        "chestui_icon_key": {
+            "textures": "textures/items/icons/key"
+        },
+        "chestui_icon_key_2": {
+            "textures": "textures/items/icons/key_2"
+        },
+        "chestui_icon_kings_hat": {
+            "textures": "textures/items/icons/kings_hat"
+        },
+        "chestui_icon_lemonade": {
+            "textures": "textures/items/icons/lemonade"
+        },
+        "chestui_icon_lightning": {
+            "textures": "textures/items/icons/lightning"
+        },
+        "chestui_icon_lock": {
+            "textures": "textures/items/icons/lock"
+        },
+        "chestui_icon_magnet": {
+            "textures": "textures/items/icons/magnet"
+        },
+        "chestui_icon_male": {
+            "textures": "textures/items/icons/male"
+        },
+        "chestui_icon_medal": {
+            "textures": "textures/items/icons/medal"
+        },
+        "chestui_icon_medal_2": {
+            "textures": "textures/items/icons/medal_2"
+        },
+        "chestui_icon_middle_finger": {
+            "textures": "textures/items/icons/middle_finger"
+        },
+        "chestui_icon_mountain_top": {
+            "textures": "textures/items/icons/mountain_top"
+        },
+        "chestui_icon_muffin": {
+            "textures": "textures/items/icons/muffin"
+        },
+        "chestui_icon_noodle": {
+            "textures": "textures/items/icons/noodle"
+        },
+        "chestui_icon_no_meat": {
+            "textures": "textures/items/icons/no_meat"
+        },
+        "chestui_icon_open_chest": {
+            "textures": "textures/items/icons/open_chest"
+        },
+        "chestui_icon_open_lock": {
+            "textures": "textures/items/icons/open_lock"
+        },
+        "chestui_icon_palm": {
+            "textures": "textures/items/icons/palm"
+        },
+        "chestui_icon_pizza": {
+            "textures": "textures/items/icons/pizza"
+        },
+        "chestui_icon_plane": {
+            "textures": "textures/items/icons/plane"
+        },
+        "chestui_icon_pointing_finger": {
+            "textures": "textures/items/icons/pointing_finger"
+        },
+        "chestui_icon_police": {
+            "textures": "textures/items/icons/police"
+        },
+        "chestui_icon_question_help": {
+            "textures": "textures/items/icons/question_help"
+        },
+        "chestui_icon_recycle_arrows": {
+            "textures": "textures/items/icons/recycle_arrows"
+        },
+        "chestui_icon_red_cross": {
+            "textures": "textures/items/icons/red_cross"
+        },
+        "chestui_icon_red_liquid": {
+            "textures": "textures/items/icons/red_liquid"
+        },
+        "chestui_icon_ruby": {
+            "textures": "textures/items/icons/ruby"
+        },
+        "chestui_icon_safe": {
+            "textures": "textures/items/icons/safe"
+        },
+        "chestui_icon_salad": {
+            "textures": "textures/items/icons/salad"
+        },
+        "chestui_icon_shield": {
+            "textures": "textures/items/icons/shield"
+        },
+        "chestui_icon_skull": {
+            "textures": "textures/items/icons/skull"
+        },
+        "chestui_icon_smartphone": {
+            "textures": "textures/items/icons/smartphone"
+        },
+        "chestui_icon_star": {
+            "textures": "textures/items/icons/star"
+        },
+        "chestui_icon_stars": {
+            "textures": "textures/items/icons/stars"
+        },
+        "chestui_icon_sunglasses": {
+            "textures": "textures/items/icons/sunglasses"
+        },
+        "chestui_icon_tea": {
+            "textures": "textures/items/icons/tea"
+        },
+        "chestui_icon_thumbs_down": {
+            "textures": "textures/items/icons/thumbs_down"
+        },
+        "chestui_icon_thumbs_up": {
+            "textures": "textures/items/icons/thumbs_up"
+        },
+        "chestui_icon_treasure_chest": {
+            "textures": "textures/items/icons/treasure_chest"
+        },
+        "chestui_icon_tree": {
+            "textures": "textures/items/icons/tree"
+        },
+        "chestui_icon_unicorn": {
+            "textures": "textures/items/icons/unicorn"
+        },
+        "chestui_icon_victory": {
+            "textures": "textures/items/icons/victory"
+        },
+        "chestui_icon_wall": {
+            "textures": "textures/items/icons/wall"
+        },
+        "chestui_icon_arrow_blue_left": {
+            "textures": "textures/items/icons/arrow_blue_left"
+        },
+        "chestui_icon_arrow_blue_right": {
+            "textures": "textures/items/icons/arrow_blue_right"
+        },
+        "chestui_icon_arrow_blue_up": {
+            "textures": "textures/items/icons/arrow_blue_up"
+        },
+        "chestui_icon_arrow_green_down": {
+            "textures": "textures/items/icons/arrow_green_down"
+        },
+        "chestui_icon_arrow_green_left": {
+            "textures": "textures/items/icons/arrow_green_left"
+        },
+        "chestui_icon_arrow_green_up": {
+            "textures": "textures/items/icons/arrow_green_up"
+        },
+        "chestui_icon_arrow_long_right": {
+            "textures": "textures/items/icons/arrow_long_right"
+        },
+        "chestui_icon_arrow_purple_right": {
+            "textures": "textures/items/icons/arrow_purple_right"
+        },
+        "chestui_icon_arrow_red_left": {
+            "textures": "textures/items/icons/arrow_red_left"
+        }
+    }
 }
