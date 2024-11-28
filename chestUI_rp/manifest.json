@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "c11c1743-d6b6-4257-b8e1-61cd4c05309d",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 18, 0]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "b30de36e-b61b-4077-8c8c-93e7191c4ffa",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "authors": [ "Haydan Fisher" ],
+    "generated_with": {
+      "blockception-minecraft-bedrock": [
+        "8.0.14"
+      ]
+    }
+  }
+}

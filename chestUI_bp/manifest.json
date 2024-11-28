@@ -1,0 +1,68 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "uuid": "0f155cee-dcd5-46c2-a404-aa61f80e4e67",
+        "version": [
+            1,
+            0,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            19,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "d93021f0-d102-434b-bfd6-646b93ed58fd",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "fa98f7cc-0f84-4699-8d86-b6883bf02ef9",
+            "entry": "scripts/main.js",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "c11c1743-d6b6-4257-b8e1-61cd4c05309d",
+            "version": [
+                1,
+                0,
+                0
+            ]
+        },
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.15.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.4.0"
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "Haydan Fisher"
+        ],
+        "generated_with": {
+            "blockception-minecraft-bedrock": [
+                "8.0.14"
+            ]
+        }
+    }
+}
